@@ -1,5 +1,6 @@
 import fetch from 'node-fetch'
 ;(async () => {
+  console.log('Develop')
   const response = await fetch('https://rickandmortyapi.com/api/character', {
     method: 'GET',
     headers: {
