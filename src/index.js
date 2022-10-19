@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 ;(async () => {
-  console.log('Sento')
+  console.log('Sento branch')
   const response = await fetch('https://rickandmortyapi.com/api/character', {
     method: 'GET',
     headers: {
